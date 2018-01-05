@@ -1,0 +1,92 @@
+.button {
+    background-color: #e7e7e7;
+    border: none;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    width: 275px;
+    height: 130px;
+    border-radius: 25px;
+    text-align: end;
+    margin-bottom: 20px;
+}
+
+
+.button:hover{
+
+-moz-transform: scale(1.1);
+-webkit-transform: scale(1.1);
+ transform: scale(1.1);
+}
+
+img{
+    width: 90px;
+    float: left;
+    margin-left: 10px;
+    margin-top: -20px;
+}
+
+@font-face {
+ font-family: Caviar;
+ src: url("font/cd.ttf")
+}
+
+@font-face {
+ font-family: CaviarB;
+ src: url("font/cdb.ttf")
+}
+
+
+
+h4{
+    margin-top: 25px;
+    text-decoration: none;
+    font-family: CaviarB;
+    text-align: right;
+}
+
+.container-fluid{
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.header{
+    min-height: 90px;
+    background-color: #f4f4f4;
+    border-color: none;
+    margin-bottom: 30px;
+    font-family: CaviarB;
+    text-align: left;
+}
+
+h3{
+    font-family: CaviarB;
+    text-align: left;
+    margin-bottom: 60px;
+    margin-left: 60px;
+}
+
+@media only screen and (max-width: 768px){
+    h3{
+    font-family: CaviarB;
+    text-align: center;
+    margin-bottom: 60px;
+        margin-left: 0px;
+}
+}
+
+img#bulb{
+    width: 90px;
+    height: 80px;
+    margin-top: 5px;
+    }
+
+h2{
+    font-family: CaviarB;
+    margin-top: 35px;
+    float: left;
+}
+
+
+
