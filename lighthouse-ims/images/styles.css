@@ -1,0 +1,130 @@
+body {
+	font-family: Raleway, sans-serif;
+}
+
+.logo-logs {
+  position: fixed;
+  top: 25%;
+  right: 50%;
+  left: 50%;
+  z-index: $zindex-navbar-fixed;
+}
+
+h1 {
+	font-weight: 700;
+	line-height: 70%;
+}
+h1 span {
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color: #808080;
+	font-weight: 700;
+}
+h2 {
+	font-weight: 300;
+    color: #101010;
+    letter-spacing: 2px;
+    font-size: 30px;
+    margin: -10px 0 10px;
+}
+.right {
+	float: right;
+}
+.panel-body {
+    padding: 15px;
+    min-height: 100px;
+ }
+ .cor-add {
+ 	margin-top: 15px;
+ }
+/*******content-deliveries.php*******/
+button.right {
+	margin: 0 5px;
+}
+/******inventory-buttons******/
+.inventory-buttons a {
+	padding: 8px 13px;
+}
+.inventory-buttons .btn {
+	padding: 8px 0;
+}
+/********LOGIN*********/
+.login-panel {
+    margin-top: 0 !important;
+}
+.form-control {
+	background-image: url(images/User.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+.logo h2{
+    float: left;
+    margin-left: 470px;
+    margin-top: 83px;
+}
+
+.logo img{
+    margin-left: -370px;
+    margin-top: 25px;
+    margin-bottom: -20px;
+}
+/******Nav********/
+nav h3 {
+	display: inline-block;
+	font-size: 20px !important;
+	margin-right: 5px;
+}
+.navbar-top-links li a {
+	padding: 14px 10px 24px !important;
+}
+.navbar-top-links .dropdown-user li a {
+	padding: 7px 10px !important;
+}
+.page-header {
+	margin: 230px 0 0 -9px !important;
+}
+.little-logo {
+	width: 213px;
+    height: 99px;
+}
+.sidebar {
+    
+}
+/**modal***/
+.modal-footer {
+	border-top: none !important;
+}
+/******FOOTER*******/
+footer {
+	padding: 10px 0;
+}
+footer p {
+	margin: 0 !important;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+footer p:nth-of-type(1) {
+	font-size: 17px;
+}
+footer p:nth-of-type(2) {
+	font-size: 12px;
+	letter-spacing: 2px;
+}
+
+@media only screen and (min-width: 1140px) {
+	.sidebar {
+		margin-top: 100px !important;
+	}
+}
+@media only screen and (min-width: 1119px) {
+	.sidebar {
+		margin-top: 100px !important;
+	}
+}
+@media only screen and (min-width: 768px) {
+	.sidebar {
+		margin-top: 100px !important;
+	}
+}
